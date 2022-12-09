@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GradientScroller /> has the correct default sizing 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="leftGradient"
+  >
+    <span
+      className="scrollTrigger"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    />
+  </div>
+  <div
+    className="rightGradient"
+  >
+    <span
+      className="scrollTrigger"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    />
+  </div>
+  <div
+    className="scroller"
+    onScroll={[Function]}
+  >
+    <div
+      className="contents"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`removeFromList() errors if property name is not an array 1`] = `"\\"getSomething\\" list \\"something.name\\" is not an array."`;
+
+exports[`removeFromList() errors if query does not exist in cache 1`] = `"\\"otherQuery\\" list \\"things\\" is not an array."`;

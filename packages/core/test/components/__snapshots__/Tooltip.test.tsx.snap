@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tooltip /> can underline 1`] = `
+<span
+  className="container"
+>
+  <div
+    aria-labelledby="uuid-test-mock"
+    className="underlined"
+    onMouseDown={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <a
+      href="/"
+    >
+      hello world
+    </a>
+  </div>
+  <Portal>
+    <div
+      className="offscreen"
+      id="uuid-test-mock"
+    >
+      test
+    </div>
+  </Portal>
+</span>
+`;
+
+exports[`<Tooltip /> disabled does not underline 1`] = `
+<span
+  className="container"
+>
+  <div
+    aria-labelledby="uuid-test-mock"
+    className=""
+    onMouseDown={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <a
+      href="/"
+    >
+      hello world
+    </a>
+  </div>
+  <Portal>
+    <div
+      className="offscreen"
+      id="uuid-test-mock"
+    >
+      test
+    </div>
+  </Portal>
+</span>
+`;
+
+exports[`<Tooltip /> disabled does not up when hovered 1`] = `
+<span
+  className="container"
+>
+  <div
+    aria-labelledby="uuid-test-mock"
+    className=""
+    onMouseDown={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <a
+      href="/"
+    >
+      hello world
+    </a>
+  </div>
+  <Portal>
+    <div
+      className="offscreen"
+      id="uuid-test-mock"
+    >
+      test
+    </div>
+  </Portal>
+</span>
+`;
+
+exports[`<Tooltip /> once open supports changing content 1`] = `
+<span
+  className="container"
+>
+  <div
+    aria-labelledby="uuid-test-mock"
+    className=""
+    onMouseDown={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <a
+      href="/"
+    >
+      hello world
+    </a>
+  </div>
+  <Portal>
+    <div
+      className="offscreen"
+      id="uuid-test-mock"
+    >
+      whatever
+    </div>
+  </Portal>
+  <Overlay
+    noBackground={true}
+    onClose={[Function]}
+    open={true}
+  >
+    <div
+      className="tooltip tooltip_below inline-0"
+      role="tooltip"
+    >
+      <div
+        className="content"
+      >
+        <Text
+          inverted={false}
+        >
+          whatever
+        </Text>
+      </div>
+    </div>
+  </Overlay>
+</span>
+`;
+
+exports[`<Tooltip /> opens up when hovered 1`] = `
+<span
+  className="container"
+>
+  <div
+    aria-labelledby="uuid-test-mock"
+    className=""
+    onMouseDown={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <a
+      href="/"
+    >
+      hello world
+    </a>
+  </div>
+  <Portal>
+    <div
+      className="offscreen"
+      id="uuid-test-mock"
+    >
+      test
+    </div>
+  </Portal>
+  <Overlay
+    noBackground={true}
+    onClose={[Function]}
+    open={true}
+  >
+    <div
+      className="tooltip tooltip_below inline-0"
+      role="tooltip"
+    >
+      <div
+        className="content"
+      >
+        <Text
+          inverted={false}
+        >
+          test
+        </Text>
+      </div>
+    </div>
+  </Overlay>
+</span>
+`;

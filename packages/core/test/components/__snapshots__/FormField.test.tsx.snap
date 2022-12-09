@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormField /> renders input after the label 1`] = `
+<section
+  className="field"
+>
+  <div
+    className=""
+  >
+    <label
+      className="label"
+      htmlFor="foo"
+    >
+      <StatusText
+        bold={true}
+      >
+        Label
+      </StatusText>
+    </label>
+    <div
+      className="input"
+    >
+      <div
+        className="anchor"
+      >
+        Foo
+      </div>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`<FormField /> renders input after the label 2`] = `
+<section
+  className="field"
+>
+  <div
+    className="content_inline"
+  >
+    <label
+      className="label label_noSpacing"
+      htmlFor="foo"
+    >
+      <StatusText
+        bold={true}
+      >
+        Label
+      </StatusText>
+    </label>
+    <div
+      className="input input_afterInline"
+    >
+      <div
+        className="anchor"
+      >
+        Foo
+      </div>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`<FormField /> renders input before the label 1`] = `
+<section
+  className="field"
+>
+  <div
+    className=""
+  >
+    <div
+      className="input"
+    >
+      <div
+        className="anchor"
+      >
+        Foo
+      </div>
+    </div>
+    <label
+      className="label label_noSpacing"
+      htmlFor="foo"
+    >
+      <StatusText
+        bold={true}
+      >
+        Label
+      </StatusText>
+    </label>
+  </div>
+</section>
+`;
+
+exports[`<FormField /> renders input before the label 2`] = `
+<section
+  className="field"
+>
+  <div
+    className="content_inline"
+  >
+    <div
+      className="input input_beforeInline"
+    >
+      <div
+        className="anchor"
+      >
+        Foo
+      </div>
+    </div>
+    <label
+      className="label label_noSpacing"
+      htmlFor="foo"
+    >
+      <StatusText
+        bold={true}
+      >
+        Label
+      </StatusText>
+    </label>
+  </div>
+</section>
+`;

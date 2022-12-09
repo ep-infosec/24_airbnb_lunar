@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Translate /> renders a translator component 1`] = `
+<T
+  bar={123}
+  k="foo"
+  phrase="Foo"
+/>
+`;
+
+exports[`<Translate /> renders without translator component 1`] = `<span />`;

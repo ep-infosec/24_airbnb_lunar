@@ -1,0 +1,63 @@
+{
+  "name": "@airbnb/lunar",
+  "version": "3.29.0",
+  "release": "1583350587083",
+  "description": "React toolkit and design language for Airbnb open source and internal projects.",
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "module": "./esm/index.js",
+  "sideEffects": false,
+  "repository": "https://github.com/airbnb/lunar/tree/master/packages/core",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "yarn run build:cjs && yarn run build:esm",
+    "build:cjs": "BUILD=cjs babel --root-mode upward --extensions .ts,.tsx ./src --out-dir ./lib",
+    "build:esm": "BUILD=esm babel --root-mode upward --extensions .ts,.tsx ./src --out-dir ./esm"
+  },
+  "peerDependencies": {
+    "@airbnb/lunar-icons": "^3.0.0",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "devDependencies": {
+    "@airbnb/lunar-test-utils": "^3.0.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "dependencies": {
+    "@types/airbnb-prop-types": "*",
+    "@types/hoist-non-react-statics": "*",
+    "@types/lodash": "*",
+    "@types/luxon": "*",
+    "@types/prop-types": "*",
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "@types/react-virtualized": "*",
+    "aesthetic": "^5.2.0",
+    "aesthetic-adapter-aphrodite": "^5.2.0",
+    "aesthetic-react": "^2.2.1",
+    "airbnb-prop-types": "^2.15.0",
+    "aphrodite": "^2.4.0",
+    "copy-to-clipboard": "^3.3.1",
+    "debounce-promise": "^3.1.2",
+    "emojibase": "^4.0.1",
+    "emojibase-regex": "^4.0.1",
+    "fuse.js": "^3.4.6",
+    "hoist-non-react-statics": "^3.3.2",
+    "interweave": "^12.5.0",
+    "interweave-autolink": "^4.2.1",
+    "interweave-emoji": "^5.3.1",
+    "interweave-emoji-picker": "^5.2.1",
+    "lodash": "^4.17.15",
+    "luxon": "^1.23.0",
+    "ms": "^2.1.2",
+    "prop-types": "^15.7.2",
+    "react-day-picker": "7.3.2",
+    "react-virtualized": "^9.21.2",
+    "shallowequal": "^1.1.0",
+    "uuid": "^7.0.3"
+  }
+}

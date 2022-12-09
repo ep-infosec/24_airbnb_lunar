@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProfilePhotoGroup /> handles components that return a falsy value 1`] = `
+<div
+  className="group"
+>
+  <div
+    className="cell inline-0"
+    key="0"
+  >
+    <FakePhoto
+      inline={false}
+      key=".0"
+      size={5}
+      square={false}
+    />
+  </div>
+</div>
+`;
+
+exports[`<ProfilePhotoGroup /> handles photos that return falsy values 1`] = `
+<div
+  className="group"
+>
+  <div
+    className="cell inline-0"
+    key="0"
+  >
+    <ProfilePhoto
+      imageSrc="https://domain.com/some/file.jpg"
+      inline={false}
+      key=".1"
+      size={5}
+      square={false}
+      title="Name"
+    />
+  </div>
+</div>
+`;
+
+exports[`<ProfilePhotoGroup /> renders a remainder cell when the max is met 1`] = `
+<div
+  className="group"
+>
+  <div
+    className="cell inline-0"
+    key="0"
+  >
+    <ProfilePhoto
+      imageSrc="https://domain.com/some/file.jpg"
+      inline={false}
+      key=".0"
+      size={5}
+      square={false}
+      title="Name"
+    />
+  </div>
+  <div
+    className="cell inline-0"
+    key="remainder"
+  >
+    <div
+      className="remainder inline-0"
+    >
+      <span
+        className="remainderNumber"
+      >
+        +2
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ProfilePhotoGroup /> renders a single photo 1`] = `
+<div
+  className="group"
+>
+  <div
+    className="cell inline-0"
+    key="0"
+  >
+    <ProfilePhoto
+      imageSrc="https://domain.com/some/file.jpg"
+      inline={false}
+      key=".0"
+      size={5}
+      square={false}
+      title="Name"
+    />
+  </div>
+</div>
+`;
+
+exports[`<ProfilePhotoGroup /> renders photos 1`] = `
+<div
+  className="group"
+>
+  <div
+    className="cell inline-0"
+    key="0"
+  >
+    <ProfilePhoto
+      imageSrc="https://domain.com/some/file.jpg"
+      inline={false}
+      key=".0"
+      size={5}
+      square={false}
+      title="Name"
+    />
+  </div>
+  <div
+    className="cell inline-0"
+    key="1"
+  >
+    <ProfilePhoto
+      imageSrc="https://domain.com/some/file.jpg"
+      inline={false}
+      key=".1"
+      size={5}
+      square={false}
+      title="Name"
+    />
+  </div>
+  <div
+    className="cell inline-0"
+    key="2"
+  >
+    <ProfilePhoto
+      imageSrc="https://domain.com/some/file.jpg"
+      inline={false}
+      key=".2"
+      size={5}
+      square={false}
+      title="Name"
+    />
+  </div>
+</div>
+`;
+
+exports[`<ProfilePhotoGroup /> supports custom sizes 1`] = `
+<div
+  className="group"
+>
+  <div
+    className="cell inline-0"
+    key="0"
+  >
+    <ProfilePhoto
+      imageSrc="https://domain.com/some/file.jpg"
+      inline={false}
+      key=".0"
+      size={5}
+      square={false}
+      title="Name"
+    />
+  </div>
+  <div
+    className="cell inline-0"
+    key="1"
+  >
+    <ProfilePhoto
+      imageSrc="https://domain.com/some/file.jpg"
+      inline={false}
+      key=".1"
+      size={5}
+      square={false}
+      title="Name"
+    />
+  </div>
+  <div
+    className="cell inline-0"
+    key="2"
+  >
+    <ProfilePhoto
+      imageSrc="https://domain.com/some/file.jpg"
+      inline={false}
+      key=".2"
+      size={5}
+      square={false}
+      title="Name"
+    />
+  </div>
+</div>
+`;
